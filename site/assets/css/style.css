@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+p {
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.container__too {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    border-top: 1px solid #e5e5e5
+}
+
+
+
+/* Intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background-size: 1360px ;
+    background: url("../images/redmi.jpg") center no-repeat;
+    background-size: cover;
+}
+
+
+.intro_sup {
+    width: 100%;
+    height: 1200px;
+    margin: 0 auto;
+
+}
+
+
+/* Header */
+.header {
+    width: 100%;
+    padding-top: 30px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+/* Nav */
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__l {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* Button */
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+
+    border: 3px solid #fff;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+/* Date */
+
+.center {
+    width: 100%;
+    max-width: 500px;
+    font-size: 25px;
+    font-weight: 700;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* Img */
+
+.img__setck {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img {
+    height: 280px;
+    width: 380px;
+}
+
+.img__setcka {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 0 150px;  
+}
+
+
+.img__sub {
+    height: 380px;
+    width: 380px;
+}
+
+.img__top {
+    height: 480px;
+    width: 5 80px;
+    display: block;
+    margin: 10px auto;
+    border-image-width: cover;
+}
+
+footer {
+    height: 64px;
+    width: 1350px;
+    background:  url(../images/futer.jpg) center no-repeat;
+    background-size: cover;
+}
+
+
+/* Contacts */
+
+.contacts {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.street {
+    margin-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    height: 125px;
+    width: 380px;
+    font-size: 13px;
+}
+
+.vk {
+    margin-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    height: 125px;
+    width: 380px;
+    font-size: 13px;
+}
+
+.instagram {
+    margin-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    height: 125px;
+    width: 350px;
+    font-size: 13px;
+}
+
+.mail {
+    margin-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    height: 125px;
+    width: 350px;
+    font-size: 13px;
+}
+
+/* Harac */
+
+.hara {
+    margin-bottom: 24px;
+    text-align: center;
+
+}
+
+.border {
+    text-align: center;
+}
+
+
+.copyright {
+    padding: 20px 0;
+    border-top: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    background-color: #e5e5e5;
+    
+}
