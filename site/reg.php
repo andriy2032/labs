@@ -9,7 +9,4 @@ if (isset($name) && isset($pass)) {
 	VALUES('$name', '$pass')");
 	echo 'Вітаю ви зареєструвались!';
 }
-else {
-	echo 'Помилка реєстрації!';
-}
 ?>
